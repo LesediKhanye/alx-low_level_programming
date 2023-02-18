@@ -13,10 +13,9 @@ int main(void)
 	{
 		putchar(ch);
 	}
-	while (ch = 'A' <= 'Z')
+	for (ch='A'; ch <= 'Z'; ch++
 	{
 		putchar(ch);
-		ch++;
 	}
 	putchar('\n');
 }
